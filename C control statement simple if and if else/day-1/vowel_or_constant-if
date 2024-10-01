@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main () {
+    char ch;
+
+    printf("Enter any alphabet :");
+    scanf("%c",&ch);
+
+    if(ch=='a' && printf("vowel") || ch=='e' &&  printf("vowel") ||ch=='i' &&  printf("vowel") || 
+     ch=='o' &&  printf("vowel") ||
+     ch=='u' &&  printf("vowel") || printf("constant") );
+
+    //  if(ch=='A' && printf("vowel") || ch=='E' &&  printf("vowel") ||ch=='I' &&  printf("vowel") || 
+    //  ch=='O' &&  printf("vowel") ||
+    //  ch=='U' &&  printf("vowel") || printf("constant") );
+
+    return 0;
+}
