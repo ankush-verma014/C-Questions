@@ -5,7 +5,7 @@ int main() {
     char ownerName[50], vehicleName[50];
     float bill = 0;
 
-    // Input vehicle type
+    
     printf("Enter the type of vehicle (2 for 2-wheeler, 3 for 3-wheeler, 4 for 4-wheeler): ");
     scanf("%d", &vehicleType);
 
@@ -83,4 +83,6 @@ int main() {
     printf("Bill: Rs. %.2f\n", bill);
 
     return 0;
+
 }
+
