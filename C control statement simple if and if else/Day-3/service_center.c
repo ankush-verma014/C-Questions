@@ -60,8 +60,6 @@ int main() {
             printf("Invalid option selected.\n");
             return 0;
     }
-
-    // Print the bill
     printf("\n--- Bill ---\n");
     printf("Name of the owner: %s\n", ownerName);
     printf("Name of the vehicle: %s\n", vehicleName);
