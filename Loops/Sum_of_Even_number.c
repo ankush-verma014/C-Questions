@@ -18,3 +18,37 @@ int main() {
 
     return 0;
 }
+
+// #include <stdio.h>
+
+// // Function to find the greatest of four integers
+// int max_of_four(int a, int b, int c, int d) {
+//     int max = a;  // Assume a is the largest initially
+
+//     if (b > max) {
+//         max = b;
+//     }
+//     if (c > max) {
+//         max = c;
+//     }
+//     if (d > max) {
+//         max = d;
+//     }
+    
+//     return max;
+// }
+
+// int main() {
+//     int a, b, c, d;
+    
+//     // Reading four integers
+//     printf("Enter four integers: ");
+//     scanf("%d %d %d %d", &a, &b, &c, &d);
+    
+//     // Calling the function and printing the result
+//     int max = max_of_four(a, b, c, d);
+//     printf("%d is a max number\n", max);
+
+//     return 0;
+// }
+
