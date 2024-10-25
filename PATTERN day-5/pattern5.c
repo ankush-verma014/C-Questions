@@ -14,13 +14,13 @@ int main() {
     {
         for(int c=1;c<=nr;c++)
         {
-           if(r==1 ||r==nr|| c==1 || c==nr ||(r+c)%2==0)
+           if(r==1 ||r==nr|| c==1 || c==nr ||r==c||r+c==nr+1)
            {
-               printf("#  ");
+               printf("* ");
            }
            else
            {
-               printf("   ");
+               printf("  ");
            }
           
         }
