@@ -1,10 +1,3 @@
-// Given an array of integer , print a new array length 2 containing the first and
-// last elements from the original array. The original array will be length 1 or more
-// otherwise print not a valid declaration ?
-
-// Print the original array and the new array element 
-
-// Solve:
 
 #include <stdio.h>
 
