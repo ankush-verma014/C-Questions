@@ -47,7 +47,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    printf("\nElements at even indices are:\n");
+    printf("\nElements at odd indices are:\n");
     for (int i = 0; i < 10; i += 2) 
     {
         printf("Element at index %d: %d\n", i, arr[i]);
@@ -55,7 +55,7 @@ int main() {
 
     printf("------------------------------\n");
     
-    printf("Elements at odd indices are:\n");
+    printf("Elements at even indices are:\n");
     for (int i = 1; i < 10; i += 2) 
     {
         printf("Element at index %d: %d\n", i, arr[i]);
