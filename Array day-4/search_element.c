@@ -43,10 +43,10 @@ int main() {
     }
 
    
-    if (!found) 
-    {
-        printf("Element %d not found in the array\n", element);
-    }
+    // if (!found) 
+    // {
+    //     printf("Element %d not found in the array\n", element);
+    // }
 
     return 0;
 }
