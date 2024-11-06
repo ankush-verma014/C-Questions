@@ -34,32 +34,38 @@
 // Element at index 7: 89
 // Element at index 9: 11
 
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
+int main(){
+    int a[10]={0};
+
+    printf("Enter 10 integer elements: \n");
+   
+
+    for(int i=0; i<10; i++){
+        printf("Element at index %d: ",i);
+        scanf("%d",&a[i]);
+    }
+    printf("\n");
+    printf("Element at even indices are: \n");
     
-    int arr[10];
-
-    printf("Enter 10 integer elements:\n");
-    for (int i = 0; i < 10; i++) 
-    {
-        printf("Element at index %d: ", i);
-        scanf("%d", &arr[i]);
+    for(int i=0; i<10; i++){
+        if(a[i]%2==0){
+            printf("Elements at index %d: %d\n",i,a[i]);
+        }
     }
 
-    printf("\nElements at odd indices are:\n");
-    for (int i = 0; i < 10; i += 2) 
-    {
-        printf("Element at index %d: %d\n", i, arr[i]);
+    printf("------------------------------------\n");
+
+    printf("Elements at odd indices are: \n");
+    for(int i=0; i<10; i++){
+        if(a[i]%2!=0){
+            printf("Element at index %d: %d\n",i, a[i]);
+        }
     }
 
-    printf("------------------------------\n");
-    
-    printf("Elements at even indices are:\n");
-    for (int i = 1; i < 10; i += 2) 
-    {
-        printf("Element at index %d: %d\n", i, arr[i]);
-    }
+
+
 
     return 0;
 }
