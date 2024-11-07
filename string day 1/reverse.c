@@ -1,10 +1,32 @@
-#include <stdio.h>
+// #include <stdio.h>
+
+// int main() {
+//     char s[100];
+//     int i;
+//     printf("Enter a string: ");
+//     scanf("%s", s);
+    
+//     for(i = 0; s[i] != '\0'; i++);
+
+//     printf("Reverse: ");
+//     while(i) 
+//     {
+//         printf("%c", s[--i]);
+//     }
+
+//     return 0;
+// }
+
+                            //      OR
+                            // _________________
+
+  #include <stdio.h>
 
 int main() {
     char s[100];
     int i;
     printf("Enter a string: ");
-    scanf("%s", s);
+    scanf("%[^\n]", s);
     
     for(i = 0; s[i] != '\0'; i++);
 
@@ -15,4 +37,5 @@ int main() {
     }
 
     return 0;
-}
+}                          
+
