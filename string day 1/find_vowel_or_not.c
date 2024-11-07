@@ -1,24 +1,26 @@
-#include <stdio.h>
-
-int main(){
-    char str[100];
-    int f=0;
+#include<stdio.h>
+int main () {
+    char s[100];
+    int i,vowel;
     
-    printf("Enter a string: ");
-    scanf("%[^\n]s", str);
-
-    for(int i=0;str[i]!='\0';i++){
-        char ch = str[i];
-         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
-            ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
-            f=1;
+    printf("Enter a String:");
+    scanf("%[^\n]",s);
+    
+    for(i=0;s[i]!='\0';i++)
+    {
+        if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u'||s[i]=='A'||s[i]=='E'||s[i]=='I'||s[i]=='O'||s[i]=='U'){
+        
+          vowel=1;
         }
+       
     }
-    if(f==1){
-        printf("This string contains vowel. ");
-    }else{
-        printf("There is no vowel present in this string.");
-    }
-   
-    return 0;
+    if(vowel==1)
+       {
+            printf("This is a vowel string");
+        }
+    
+     else
+        {
+            printf("This is not a vowel string");
+        }
 }
