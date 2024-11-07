@@ -33,7 +33,7 @@ int main() {
     printf("Reverse: ");
     while(i) 
     {
-        printf("%c", s[--i]);
+        printf(" %c ", s[--i]);
     }
 
     return 0;
